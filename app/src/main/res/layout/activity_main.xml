@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/index"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+        <EditText
+            android:id="@+id/edit_name"
+            android:layout_width="330dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="36dp"
+            android:layout_marginBottom="19dp"
+            android:ems="10"
+            android:hint="name"
+            android:inputType="textPersonName"
+            android:text="Name" />
+
+    <Button
+        android:id="@+id/save_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/get_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
+
+    <!--    <EditText-->
+    <!--        android:id="@+id/age"-->
+    <!--        android:layout_width="330dp"-->
+    <!--        android:layout_height="40dp"-->
+    <!--        android:layout_marginTop="16dp"-->
+    <!--        android:ems="10"-->
+    <!--        android:hint="age"-->
+    <!--        android:inputType="textPersonName" />-->
+
+    <!--    <Button-->
+    <!--        android:id="@+id/saveButton"-->
+    <!--        android:layout_width="330dp"-->
+    <!--        android:layout_height="50dp"-->
+    <!--        android:layout_marginTop="8dp"-->
+    <!--        android:layout_marginBottom="33dp"-->
+    <!--        android:paddingLeft="100dp"-->
+    <!--        android:paddingRight="100dp"-->
+    <!--        android:text="save"-->
+    <!--        app:layout_constraintBottom_toTopOf="@+id/scrollView2"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintHorizontal_bias="0.506"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/age"-->
+    <!--        app:layout_constraintVertical_bias="0.0" />-->
+
+    <!--    <ScrollView-->
+    <!--        android:id="@+id/scrollView2"-->
+    <!--        android:layout_width="404dp"-->
+    <!--        android:layout_height="465dp"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="@+id/saveButton">-->
+
+    <!--        <TextView-->
+    <!--            android:id="@+id/index"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text="TextView" />-->
+    <!--    </ScrollView>-->
+
+</LinearLayout>
